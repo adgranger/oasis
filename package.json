@@ -15,7 +15,7 @@
   "author": "msdigital.ch",
   "license": "GNU LGPLv3",
   "engines": {
-    "node": "~16.16.0",
+    "node": "~24.13.0",
     "npm": "~8.11.0"
   },
   "dependencies": {

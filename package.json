@@ -16,7 +16,7 @@
   "license": "GNU LGPLv3",
   "engines": {
     "node": "~24.13.0",
-    "npm": "~8.11.0"
+    "npm": "~11.6.2"
   },
   "dependencies": {
     "async": ">=3.2.4",

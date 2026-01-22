@@ -6,8 +6,8 @@
   "private": false,
   "scripts": {
     "local": "DEV_ENV=local NODE_ENV=development DEBUG=*,-body-parser*,-express*,-knex*,-send*,-winston*,-superagent*,-i18n*,-nodemon* nodemon -L server/app.js --ignore '**/locales/**'",
-    "postinstall": "genversion server/lib/appversion.js",
-    "start": "genversion server/lib/appversion.js && node server/app.js"
+    "build": "genversion server/lib/appversion.js",
+    "start": "node server/app.js"
   },
   "repository": {
     "type": "git",
